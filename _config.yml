@@ -23,7 +23,7 @@ title: DK's Development Journal # the main title
 tagline: Decided to start a tech blog, where I can share my experiences and knowledge with others in the community.  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Decided to start a tech blog, where I can share my experiences and knowledge with others in the community. 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://Dachan-Kyong.github.io"
@@ -142,7 +142,7 @@ defaults:
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
-      permalink: /posts/:title/
+      permalink: /:collection/:title/
   - scope:
       path: _drafts
     values:
