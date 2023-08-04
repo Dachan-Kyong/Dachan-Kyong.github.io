@@ -1,9 +1,10 @@
 ---
-title:  "Create Github Blog (1): MacBook M1 Pro"
+title:  "Create Github Blog (1): MacBook Pro, M1, Initial Setup"
 author: Dachan Kyong
 date: 2023-08-02 02:00:00 +0900
 categories: [Github Blog]
 tags: [Github_blog]
+collection: blog
 render_with_liquid: false
 ---
 
@@ -12,7 +13,7 @@ render_with_liquid: false
 - **Chip**: Apple M1 Pro
 - **Version**: macOS Monterey, 12.2.1
 
-## Installation: Based on August 2, 2023
+## Installation, based on August 2, 2023
 
 ### Step 1: Homebrew
 Go to <https://brew.sh/>, copy link under "Install Homebrew", and paste that in a macOS Terminal:
