@@ -19,10 +19,22 @@ render_with_liquid: false
 Go to <https://brew.sh/>, copy link under "Install Homebrew", and paste that in a macOS Terminal:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh) // "This will require your password."
 ```
 
-Update brew for sure in a macOS Terminal:
+To check ㅑnstallation sccess status, we can type `brew help`, but it will show an error on M1 Mac:
+```bash
+zsh: command not found: brew
+```
+
+To fix the issue we need to type, and then to check status type `brew help`:
+```bash
+eval $(/opt/homebrew/bin/brew shellenv)
+
+brew help
+```
+
+Then Update brew for sure in a macOS Terminal:
 
 ```bash
 brew update // "this will update brew."
@@ -144,10 +156,11 @@ Finally use source command to apply updated path:
 source ~/.zshrc
 ```
 
-We are now ready with the basic preparations to start a GitHub blog using Jekyll and its theme on macOS, M1. The next post will cover the appropriate usage instructions.
+We are now ready with the basic preparations to start a GitHub blog using Jekyll on macOS, M1. The next post will cover the appropriate usage instructions.
 
 ### References
 - <https://siot0.tistory.com/58>
 - <https://d-dual.tistory.com/8>
 - <https://intheham.tistory.com/115>
+- <https://velog.io/@wijoonwu/Mac-OS-%EC%97%90%EC%84%9C-Git-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0>
 - <https://gamsungcoding.tistory.com/entry/Ruby-rbenv%EB%A1%9C-ruby-%EB%B2%84%EC%A0%84-%EB%B3%80%EA%B2%BD%EC%9D%B4-%EC%95%88%EB%90%A0-%EB%95%8C>
