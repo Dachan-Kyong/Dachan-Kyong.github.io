@@ -13,16 +13,67 @@ render_with_liquid: false
 
 [Create Github Blog (2): Github & jekyll Setup](http://127.0.0.1:4000/posts/creating-blog-1/)
 
-## **Development Environment Setup**
-- [Visual Studio Code](https://code.visualstudio.com/download): Download Apple silicon
+## **Applying Jekull Theme**
+
+### **Step 1**: Download Chirpy Theme
+
+- Go to [jekyllthemes.org](http://jekyllthemes.org/themes/jekyll-theme-chirpy/) and download jekyll-theme-master.zip file (used version 6.1.0)
 
 
-## **Creating Github Blog Pages**, based on August 2, 2023
+### **Step 2**: copy and paste to the local folder created before
+- copy all the files and replace the files already created before with them.
 
-### **Step 1**: GitHub Login and Repository Creation
-- Go to [GitHub](https://github.com/), sign up and sign in. 
-- Click **create a new repository** button.
-    + **Repository name**: `YOUR_USERNAME.github.io`, where `YOUR_USERNAME` represents your GitHub username.
-- Click **Create repository** button.
+```bash
+tools/init // "This will initialize."
 
-### **Step 2**: Clone the created repository to a local environment
+npm install // "This will install node modules, which prevents errors: no asset/min.js"
+```
+
+### **Step 3**: Configuration: Config.yml & .gitignore
+For `Config.yml` (in order):
+- `lang`: Change displayed language. Check options available in your `_data/locales`.
+- `timezone`: Change time.
+- `title`: This will be your main title.
+- `tagline`: This will be your sub-title.
+- `description`: This will be displayed in your .xml.
+- `url`: change to your GitHub blog URL. If you don't change you cannot build and deploy.
+- `github` > `username`: This will be your GitHub username.
+- `social` >: This will be displayed as the default author of the posts and the copyright owner in the Footer.
+    + `name`: Change to your name.
+    + `email`: Change yo your email address.
+- `avatar`: change to your avatar image.
+
+For `.gitignore`:
+- Delete: `Gemfile.lock`
+- Add `node_modules`
+
+
+### **Step 4**: Github Pages Setting
+Go to `Settings` > `Pages`:
+
+For **Source**, you need to set it as `Deploy from a branch` to `GitHub Actions`. And click `GitHub Pages Jekyll` > `Configure` button and Commit Changes. This will create `jekyll.yml` in `.github/workflows` on your main branch. We need this setting to prevent `Error:  The jekyll-theme-chirpy theme could not be found.`
+
+if you cannot build `jekyll.yml` with an error `Error: The process '/opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle' failed with exit code 16`, this is because of playforms difference. Since M1 MacBook uses x86_64-linux you need:
+
+```bash
+bundle lock --add-platform x86_64-linux // "this will add x86_64-linux platform in your Gemfile.lock."
+```
+
+For **Branch**, you need to set it as:
+`main` > `/(root)`
+
+There are many information related to `gh-` branch, but it is fine with utilizing main branch.
+
+
+### **Step 5**: Commit & Push to Your Github
+
+```bash
+git init // "initialization"
+git add . //
+git commit -m "Applying Jekyll Chirpy Theme" // "A commit message."
+git push origin main // "Push to your main branch"
+```
+
+
+## References
+- <https://1221jyp.com/posts/github-blog_2/>
