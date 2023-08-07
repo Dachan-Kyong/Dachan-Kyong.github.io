@@ -26,7 +26,7 @@ render_with_liquid: false
 ```bash
 tools/init // "This will initialize."
 
-npm install // "This will install node modules, which prevents errors: no asset/min.js"
+npm install // "This will install node modules and create files need be created, which prevents errors: * internal script /assets/js/dis/***.min.js does not exist (line 1)"
 ```
 
 ### **Step 3**: Configuration: Config.yml & .gitignore
@@ -44,7 +44,7 @@ For `Config.yml` (in order):
 - `avatar`: change to your avatar image.
 
 For `.gitignore`:
-- Delete: `Gemfile.lock`
+- Add: `Gemfile.lock`
 - Add `node_modules`
 
 
@@ -62,7 +62,7 @@ bundle lock --add-platform x86_64-linux // "this will add x86_64-linux platform 
 For **Branch**, you need to set it as:
 `main` > `/(root)`
 
-There are many information related to `gh-` branch, but it is fine with utilizing main branch.
+There are many information related to `gh-pages` branch, but I decided to utilize Author's orginal setting. So this post will not show how to initialize and start a blog from nothing.
 
 
 ### **Step 5**: Commit & Push to Your Github
@@ -74,6 +74,9 @@ git commit -m "Applying Jekyll Chirpy Theme" // "A commit message."
 git push origin main // "Push to your main branch"
 ```
 
+Now we are ready to start our blog with chirpy theme. In future blog posts, I will delve into additional usage methods and settings.
 
 ## References
+- <https://kiffblog.tistory.com/233>
 - <https://1221jyp.com/posts/github-blog_2/>
+- <https://www.irgroup.org/posts/jekyll-chirpy/>

@@ -87,9 +87,16 @@ bundle exec jekyll serve // "This will run the local server."
 ```
 We can visit the local server URL: <http://127.0.0.1:4000/> to confirm. If you can see the page with `Welcome to Jekyll!`, you are success.
 
-If there is no issue you can push code to github. You will see the deployed result in your github blog URL: `YOUR_USERNAME.github.io`.
+If you see error related with `webrick`:
+```bash
+bundle add webrick
+```
+
+If there is no issue you can commit and push code to your github. You will see the deployed result in your github blog URL: `YOUR_USERNAME.github.io`.
+
 
 We are now ready with the basic preparations to start a GitHub blog using a theme by jekyll on macOS, M1. The next post will cover how to apply the theme and commit and push the final code to github.
 
 ## References
 - <https://mihee0703.tistory.com/49>
+- <https://devpro.kr/posts/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-(2)/>
