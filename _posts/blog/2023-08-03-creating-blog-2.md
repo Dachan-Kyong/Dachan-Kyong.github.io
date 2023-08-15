@@ -1,7 +1,7 @@
 ---
 title: "Create Github Blog (2): Github & jekyll Setup"
 author: Dachan Kyong
-date: 2023-08-02 03:00:00 +0900
+date: 2023-08-03 16:00:00 +0900
 categories: [Github Blog]
 tags: [Github_blog]
 collection: blog
