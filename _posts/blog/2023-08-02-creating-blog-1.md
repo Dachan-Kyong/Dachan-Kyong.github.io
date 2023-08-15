@@ -3,7 +3,7 @@ title:  "Create Github Blog (1): MacBook Pro, M1, Initial Setup"
 author: Dachan Kyong
 date: 2023-08-02 02:00:00 +0900
 categories: [Github Blog]
-tags: [Github_blog]
+tags: [github blog]
 collection: blog
 render_with_liquid: false
 ---
@@ -22,7 +22,7 @@ Go to <https://brew.sh/>, copy link under "Install Homebrew", and paste that in 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh) // "This will require your password."
 ```
 
-To check ㅑnstallation sccess status, we can type `brew help`, but it will show an error on M1 Mac:
+To check installation status, we can type `brew help`, but it will show an error on M1 Mac:
 ```bash
 zsh: command not found: brew
 ```
@@ -34,7 +34,7 @@ eval $(/opt/homebrew/bin/brew shellenv)
 brew help
 ```
 
-Then Update brew for sure in a macOS Terminal:
+Then update brew for sure in a macOS Terminal:
 
 ```bash
 brew update // "this will update brew."
