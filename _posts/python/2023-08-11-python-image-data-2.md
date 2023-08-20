@@ -4,7 +4,6 @@ author: Dachan Kyong
 date: 2023-08-11 14:00:00 +0900
 categories: [Python, Image Data]
 tags: [python]
-collection: blog
 render_with_liquid: false
 ---
 

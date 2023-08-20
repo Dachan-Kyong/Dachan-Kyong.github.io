@@ -4,7 +4,6 @@ author: Dachan Kyong
 date: 2023-08-11 12:00:00 +0900
 categories: [Python, Image Data]
 tags: [python]
-collection: blog
 render_with_liquid: false
 ---
 
@@ -55,6 +54,7 @@ python --version // "This will show the Python version message: Python 2.*.*."
 python3 --version // "This will show the Python version message: Python 3.*.*."
 ```
 
+---
 My current version is Python 3.8.9. In the next post, I will explain a simple method for extracting image data.
 
 

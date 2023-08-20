@@ -95,6 +95,7 @@ bundle add webrick
 If there is no issue you can commit and push code to your github. You will see the deployed result in your github blog URL: `YOUR_USERNAME.github.io`.
 
 
+---
 We are now ready with the basic preparations to start a GitHub blog using a theme by jekyll on macOS, M1. The next post will cover how to apply the theme and commit and push the final code to github.
 
 ## References

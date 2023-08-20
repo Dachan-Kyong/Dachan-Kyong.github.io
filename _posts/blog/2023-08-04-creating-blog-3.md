@@ -9,9 +9,9 @@ render_with_liquid: false
 ---
 
 ## **Previous Posts**
-[Create Github Blog (1): MacBook Pro, M1, Initial Setup](http://127.0.0.1:4000/posts/creating-blog-1/)
+[Create Github Blog (1): MacBook Pro, M1, Initial Setup](https://dachan-kyong.github.io/posts/creating-blog-1/)
 
-[Create Github Blog (2): Github & jekyll Setup](http://127.0.0.1:4000/posts/creating-blog-1/)
+[Create Github Blog (2): Github & jekyll Setup](https://dachan-kyong.github.io/posts/creating-blog-2/)
 
 ## **Applying Jekull Theme**
 
@@ -74,6 +74,7 @@ git commit -m "Applying Jekyll Chirpy Theme" // "A commit message."
 git push origin main // "Push to your main branch"
 ```
 
+---
 Now we are ready to start our blog with chirpy theme. In future blog posts, I will delve into additional usage methods and settings.
 
 ## References

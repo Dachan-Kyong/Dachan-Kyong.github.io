@@ -5,7 +5,7 @@ date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 collection: chirpy-tutorial
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

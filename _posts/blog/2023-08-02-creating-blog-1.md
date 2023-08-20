@@ -156,6 +156,7 @@ Finally use source command to apply updated path:
 source ~/.zshrc
 ```
 
+---
 We are now ready with the basic preparations to start a GitHub blog using Jekyll on macOS, M1. The next post will cover the appropriate usage instructions.
 
 ### References
