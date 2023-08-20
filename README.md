@@ -1,3 +1,9 @@
+## About Me
+
+Greetings! This is Dachan Kyong, and I'm thrilled to introduce my latest endeavor: a tech blog designed to be a haven for sharing experiences and knowledge. This platform will serve as a space where I can connect with like-minded individuals and offer insights from my journey.
+
+Powered by the sophisticated Jekyll Chirpy theme, this blog showcases a seamless blend of functionality and style. All the Author's information is below:
+
 <div align="center">
 
   # Chirpy Jekyll Theme
