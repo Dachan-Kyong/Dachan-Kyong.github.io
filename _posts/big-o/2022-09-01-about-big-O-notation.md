@@ -2,7 +2,7 @@
 title:  What is Big-O Notation?
 author: Dachan Kyong
 date: 2022-09-01 00:00:00 +0900
-categories: [Big-O Notation, Definition]
+categories: [Big-O Notation]
 tags: [big-o]
 render_with_liquid: false
 ---
