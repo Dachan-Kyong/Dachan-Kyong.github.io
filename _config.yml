@@ -18,12 +18,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: DK's CodeCrafting # the main title
+title: DK's Tech Logs # the main title
 
 tagline: Decided to start a tech blog, where I can share my experiences and knowledge with others in the community.  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Decided to start a tech blog, where I can share my experiences and knowledge with others in the community. 
+  Mac, MacBook, Java, Python, Javascript, CSS, HTML, SQL, JSON, XML
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://Dachan-Kyong.github.io"
