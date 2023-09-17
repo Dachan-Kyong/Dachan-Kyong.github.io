@@ -2,7 +2,7 @@
 title:  "Create Github Blog (1): MacBook Pro, M1, Initial Setup"
 author: Dachan Kyong
 date: 2023-08-02 02:00:00 +0900
-categories: [Github Blog]
+categories: [Github Blog, Creation]
 tags: [github blog]
 collection: blog
 render_with_liquid: false

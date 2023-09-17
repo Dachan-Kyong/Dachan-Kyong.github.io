@@ -2,7 +2,7 @@
 title: "Create Github Blog (3): Applying Jekyll Chirpy Theme"
 author: Dachan Kyong
 date: 2023-08-04 13:00:00 +0900
-categories: [Github Blog]
+categories: [Github Blog, Creation]
 tags: [github blog]
 collection: blog
 render_with_liquid: false

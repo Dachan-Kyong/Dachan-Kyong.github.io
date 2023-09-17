@@ -2,7 +2,7 @@
 title: "What is JavaScript Object Notation (JSON)?"
 author: Dachan Kyong
 date: 2021-08-29 08:00:00 +0900
-categories: [File Format, JavaScript Object Notation (JSON)]
+categories: [File Format, JSON]
 tags: [json]
 render_with_liquid: false
 ---
