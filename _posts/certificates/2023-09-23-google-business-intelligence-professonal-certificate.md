@@ -1,5 +1,5 @@
 ---
-title: "Earned: Google Business Intelligence Professional Certificate"
+title: "Coursera: Google Business Intelligence Professional Certificate"
 author: Dachan Kyong
 date: 2023-09-23 21:53:00 +0900
 categories: [Certificates, Google Business Intelligence Certificate]
